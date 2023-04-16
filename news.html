@@ -154,93 +154,34 @@ nav.main-navigation ul li.menu-item-1185 a:hover {
 
 
 
-
-    	<div class="short-hero">
-		<img class="banner-mask" src="wp-content/themes/fsd/images/banner-mask.png">
-		<div class="the-slide" style="background-image:url(wp-content/uploads/2020/06/Contact-Us.jpg);">
-	<img src="wp-content/uploads/2020/06/Contact-Us.jpg" class="hidden">
-	</div>
-	</div>
-  
-  
-		
-  
-
-	<div class="feedback">
-		<h3>How Was Your Transport?</h3>
-		<p>Please help us monitor & improve our service...</p>
-		<span class="button" data-toggle="modal" data-target=".modal-feedback-form" data-backdrop="static"><i class="fa fa-play" aria-hidden="true"></i> Click here to leave your feedback</span>
-	</div>
-	
+    <header class="pageHeader">
+      <div class="container">
+        <div class="row middle-align-row">
+          <div class="col-md-6 col-sm-12 middle-align">
+          <h1 class="pageTitle">News</h1>
+          </div>  
+          <div class="col-md-6 hidden-sm hidden-xs middle-align">
+            <p id="breadcrumbs"><span><span><a href="index.html">Home</a></span> » <span class="breadcrumb_last" aria-current="page">News</span></span></p>            
+          </div>
+        </div>
+      </div>
+    </header>
 
 
-	<section class="page-content site-spacing">
-		<div class="container">
-<div class="row">
-	  <div class="col-md-12">
-	  <div class="the-page-content">
-		<h1>Contact</h1>			  </div>
-			
+	<section class="news-col-wrapper">
+<div class="container">
+	<div class="row news-row auto-clear">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xxs-12 news-item-col news-page-col">
+				<a href="pancreatic-cancer-awareness-month/index.html" class="box-link news-item">
+	<img width="285" height="218" src="wp-content/uploads/2019/04/Cancer-Awarness.jpg" class="attachment-cta size-cta wp-post-image" alt="Cancer Awareness Month" decoding="async" />	<h2 class="cta-title">Pancreatic Cancer Awareness Month</h2>
+	<div class="cta-content">
+		November 1st – November 30th Although Pancreatic cancer only comes 11th in the cancer charts, its mortality rate is much higher than the...	</div>
+	<span class="fsd-btn"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</span>
+</a>			</div>
+								</div>
+			</div>
+</section>
 
-
-</div><!-- close col -->
-
-
-</div>
-		</div>
-
-		<!-- Contact page -->
-		<div class="container">
-		<div class="the-google-map">
-   <div id="fsd-map"></div>
-	<script>
-	  function initMap() {
-		var latlong = {lat: 51.66256710285297, lng: -0.3579913894831757};
-
-		var map = new google.maps.Map(document.getElementById('fsd-map'), {
-		  zoom: 13,
-		  maxZoom:15,
-		  scrollwheel: false,
-		  center: latlong,
-		});
-
-	var pinimage = 'wp-content/themes/fsd/images/pin.png';
-
-		var marker = new google.maps.Marker({
-		  position: latlong,
-		  map: map,
-		  icon: pinimage,
-		  animation: google.maps.Animation.DROP,
-		});
-
-	var contentString = '<div id="map-content">'+
-			'<div id="siteNotice">'+
-			'</div>'+
-			'<h2 class="map-heading">Oak Tree Reliance Limited</h2>'+
-			'<div id="bodyContent">'+
-			'</div>'+
-			'<p class="map-address">OTR Ambulance Services<br />9A Elton Way,<br />Watford<br />WD25 8HH<br /></p>'
-			'</div>';
-		var infowindow = new google.maps.InfoWindow({
-		  content: contentString,
-		  maxWidth: 200
-
-		});
-
-		marker.addListener('click', function() {
-		  infowindow.open(map, marker);
-		});
-	  }
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlL-62syvT8uU2YD4Wzer9GI2EoB8Cw9k&amp;callback=initMap">
-	  
-	</script>
-</div>
-		</div>
-	  
-
-
-	</section>
 
 
 	</div><!-- #content -->
